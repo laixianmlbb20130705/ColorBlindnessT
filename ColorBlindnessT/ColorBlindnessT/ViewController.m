@@ -6,6 +6,8 @@
 //
 
 #import "ViewController.h"
+#import "LTSAnimButton.h"
+#import "LTSAnimParams.h"
 
 #define kWidth self.view.frame.size.width
 #define kHeight self.view.frame.size.height
@@ -61,7 +63,7 @@
     self.mainView = mainView;
     self.timeLabel = timeLabel;
 }
-
+//根据当前关卡设置方块数量
 - (int)currentCount {
     _currentCount = 4;
     if(self.currentPass<2){
@@ -128,7 +130,14 @@
     int andom = arc4random_uniform(count);
     self.currentAndom = andom;
     for (int i=0; i<count; i++) {
-        UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake(left, top, width, width)];
+        
+        LTSAnimParams *animParams4 = [LTSAnimParams new];
+        [animParams4 initDate];
+        animParams4.circleColor = [UIColor orangeColor];
+        animParams4.clickColor = [UIColor orangeColor];
+        animParams4.btnImage = [UIImage imageNamed:@"present"];
+        LTSAnimButton *button = [[LTSAnimButton alloc]initWithFrame:CGRectMake(left, top, width, width) animParams:animParams4];
+//        UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake(left, top, width, width)];
         button.tag = i+10;
         button.backgroundColor = color;
         if(andom == i){

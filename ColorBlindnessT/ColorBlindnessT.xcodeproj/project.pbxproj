@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		182782482A11D8AE008A1AE1 /* LTSScaleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1827823F2A11D8AE008A1AE1 /* LTSScaleLayer.m */; };
+		182782492A11D8AE008A1AE1 /* LTSDotLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 182782402A11D8AE008A1AE1 /* LTSDotLayer.m */; };
+		1827824A2A11D8AE008A1AE1 /* LTSAnimButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 182782422A11D8AE008A1AE1 /* LTSAnimButton.m */; };
+		1827824B2A11D8AE008A1AE1 /* LTSCircleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 182782442A11D8AE008A1AE1 /* LTSCircleLayer.m */; };
+		1827824C2A11D8AE008A1AE1 /* LTSAnimParams.m in Sources */ = {isa = PBXBuildFile; fileRef = 182782472A11D8AE008A1AE1 /* LTSAnimParams.m */; };
 		18A05CA92A0FA0A000180229 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A05CA82A0FA0A000180229 /* AppDelegate.m */; };
 		18A05CAC2A0FA0A000180229 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A05CAB2A0FA0A000180229 /* SceneDelegate.m */; };
 		18A05CAF2A0FA0A000180229 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A05CAE2A0FA0A000180229 /* ViewController.m */; };
@@ -14,10 +19,19 @@
 		18A05CB42A0FA0A400180229 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A05CB32A0FA0A400180229 /* Assets.xcassets */; };
 		18A05CB72A0FA0A400180229 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A05CB52A0FA0A400180229 /* LaunchScreen.storyboard */; };
 		18A05CBA2A0FA0A400180229 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A05CB92A0FA0A400180229 /* main.m */; };
-		18B7440F2A0FEAE500CC281E /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 18B7440E2A0FEAE500CC281E /* Podfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1827823E2A11D8AE008A1AE1 /* LTSCircleLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTSCircleLayer.h; sourceTree = "<group>"; };
+		1827823F2A11D8AE008A1AE1 /* LTSScaleLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTSScaleLayer.m; sourceTree = "<group>"; };
+		182782402A11D8AE008A1AE1 /* LTSDotLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTSDotLayer.m; sourceTree = "<group>"; };
+		182782412A11D8AE008A1AE1 /* LTSAnimParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTSAnimParams.h; sourceTree = "<group>"; };
+		182782422A11D8AE008A1AE1 /* LTSAnimButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTSAnimButton.m; sourceTree = "<group>"; };
+		182782432A11D8AE008A1AE1 /* LTSScaleLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTSScaleLayer.h; sourceTree = "<group>"; };
+		182782442A11D8AE008A1AE1 /* LTSCircleLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTSCircleLayer.m; sourceTree = "<group>"; };
+		182782452A11D8AE008A1AE1 /* LTSDotLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTSDotLayer.h; sourceTree = "<group>"; };
+		182782462A11D8AE008A1AE1 /* LTSAnimButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTSAnimButton.h; sourceTree = "<group>"; };
+		182782472A11D8AE008A1AE1 /* LTSAnimParams.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTSAnimParams.m; sourceTree = "<group>"; };
 		18A05CA42A0FA0A000180229 /* ColorBlindnessT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorBlindnessT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18A05CA72A0FA0A000180229 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18A05CA82A0FA0A000180229 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -30,7 +44,6 @@
 		18A05CB62A0FA0A400180229 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18A05CB82A0FA0A400180229 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18A05CB92A0FA0A400180229 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		18B7440E2A0FEAE500CC281E /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,10 +57,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1827823D2A11D8AE008A1AE1 /* ClickAnimButton */ = {
+			isa = PBXGroup;
+			children = (
+				182782432A11D8AE008A1AE1 /* LTSScaleLayer.h */,
+				1827823F2A11D8AE008A1AE1 /* LTSScaleLayer.m */,
+				182782412A11D8AE008A1AE1 /* LTSAnimParams.h */,
+				182782472A11D8AE008A1AE1 /* LTSAnimParams.m */,
+				1827823E2A11D8AE008A1AE1 /* LTSCircleLayer.h */,
+				182782442A11D8AE008A1AE1 /* LTSCircleLayer.m */,
+				182782452A11D8AE008A1AE1 /* LTSDotLayer.h */,
+				182782402A11D8AE008A1AE1 /* LTSDotLayer.m */,
+				182782462A11D8AE008A1AE1 /* LTSAnimButton.h */,
+				182782422A11D8AE008A1AE1 /* LTSAnimButton.m */,
+			);
+			path = ClickAnimButton;
+			sourceTree = "<group>";
+		};
 		18A05C9B2A0FA0A000180229 = {
 			isa = PBXGroup;
 			children = (
-				18B7440E2A0FEAE500CC281E /* Podfile */,
 				18A05CA62A0FA0A000180229 /* ColorBlindnessT */,
 				18A05CA52A0FA0A000180229 /* Products */,
 			);
@@ -64,6 +93,7 @@
 		18A05CA62A0FA0A000180229 /* ColorBlindnessT */ = {
 			isa = PBXGroup;
 			children = (
+				1827823D2A11D8AE008A1AE1 /* ClickAnimButton */,
 				18A05CA72A0FA0A000180229 /* AppDelegate.h */,
 				18A05CA82A0FA0A000180229 /* AppDelegate.m */,
 				18A05CAA2A0FA0A000180229 /* SceneDelegate.h */,
@@ -138,7 +168,6 @@
 			files = (
 				18A05CB72A0FA0A400180229 /* LaunchScreen.storyboard in Resources */,
 				18A05CB42A0FA0A400180229 /* Assets.xcassets in Resources */,
-				18B7440F2A0FEAE500CC281E /* Podfile in Resources */,
 				18A05CB22A0FA0A000180229 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -153,7 +182,12 @@
 				18A05CAF2A0FA0A000180229 /* ViewController.m in Sources */,
 				18A05CA92A0FA0A000180229 /* AppDelegate.m in Sources */,
 				18A05CBA2A0FA0A400180229 /* main.m in Sources */,
+				182782492A11D8AE008A1AE1 /* LTSDotLayer.m in Sources */,
+				1827824C2A11D8AE008A1AE1 /* LTSAnimParams.m in Sources */,
+				1827824A2A11D8AE008A1AE1 /* LTSAnimButton.m in Sources */,
+				1827824B2A11D8AE008A1AE1 /* LTSCircleLayer.m in Sources */,
 				18A05CAC2A0FA0A000180229 /* SceneDelegate.m in Sources */,
+				182782482A11D8AE008A1AE1 /* LTSScaleLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
