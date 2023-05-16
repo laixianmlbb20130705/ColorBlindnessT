@@ -12,6 +12,8 @@
 		1827824A2A11D8AE008A1AE1 /* LTSAnimButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 182782422A11D8AE008A1AE1 /* LTSAnimButton.m */; };
 		1827824B2A11D8AE008A1AE1 /* LTSCircleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 182782442A11D8AE008A1AE1 /* LTSCircleLayer.m */; };
 		1827824C2A11D8AE008A1AE1 /* LTSAnimParams.m in Sources */ = {isa = PBXBuildFile; fileRef = 182782472A11D8AE008A1AE1 /* LTSAnimParams.m */; };
+		18478F992A13CB62009491B4 /* y1468.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18478F982A13CB62009491B4 /* y1468.mp3 */; };
+		18478F9B2A13CB68009491B4 /* y1479.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18478F9A2A13CB68009491B4 /* y1479.mp3 */; };
 		18A05CA92A0FA0A000180229 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A05CA82A0FA0A000180229 /* AppDelegate.m */; };
 		18A05CAC2A0FA0A000180229 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A05CAB2A0FA0A000180229 /* SceneDelegate.m */; };
 		18A05CAF2A0FA0A000180229 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A05CAE2A0FA0A000180229 /* ViewController.m */; };
@@ -32,6 +34,9 @@
 		182782452A11D8AE008A1AE1 /* LTSDotLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTSDotLayer.h; sourceTree = "<group>"; };
 		182782462A11D8AE008A1AE1 /* LTSAnimButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTSAnimButton.h; sourceTree = "<group>"; };
 		182782472A11D8AE008A1AE1 /* LTSAnimParams.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTSAnimParams.m; sourceTree = "<group>"; };
+		18478F982A13CB62009491B4 /* y1468.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = y1468.mp3; sourceTree = "<group>"; };
+		18478F9A2A13CB68009491B4 /* y1479.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = y1479.mp3; sourceTree = "<group>"; };
+		18478F9D2A13D509009491B4 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 		18A05CA42A0FA0A000180229 /* ColorBlindnessT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorBlindnessT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18A05CA72A0FA0A000180229 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18A05CA82A0FA0A000180229 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -74,11 +79,20 @@
 			path = ClickAnimButton;
 			sourceTree = "<group>";
 		};
+		18478F9C2A13D509009491B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18478F9D2A13D509009491B4 /* iAd.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		18A05C9B2A0FA0A000180229 = {
 			isa = PBXGroup;
 			children = (
 				18A05CA62A0FA0A000180229 /* ColorBlindnessT */,
 				18A05CA52A0FA0A000180229 /* Products */,
+				18478F9C2A13D509009491B4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +114,8 @@
 				18A05CAB2A0FA0A000180229 /* SceneDelegate.m */,
 				18A05CAD2A0FA0A000180229 /* ViewController.h */,
 				18A05CAE2A0FA0A000180229 /* ViewController.m */,
+				18478F982A13CB62009491B4 /* y1468.mp3 */,
+				18478F9A2A13CB68009491B4 /* y1479.mp3 */,
 				18A05CB02A0FA0A000180229 /* Main.storyboard */,
 				18A05CB32A0FA0A400180229 /* Assets.xcassets */,
 				18A05CB52A0FA0A400180229 /* LaunchScreen.storyboard */,
@@ -169,6 +185,8 @@
 				18A05CB72A0FA0A400180229 /* LaunchScreen.storyboard in Resources */,
 				18A05CB42A0FA0A400180229 /* Assets.xcassets in Resources */,
 				18A05CB22A0FA0A000180229 /* Main.storyboard in Resources */,
+				18478F9B2A13CB68009491B4 /* y1479.mp3 in Resources */,
+				18478F992A13CB62009491B4 /* y1468.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

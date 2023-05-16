@@ -8,11 +8,12 @@
 #import "ViewController.h"
 #import "LTSAnimButton.h"
 #import "LTSAnimParams.h"
+#import <AVFoundation/AVFoundation.h>
 
 #define kWidth self.view.frame.size.width
 #define kHeight self.view.frame.size.height
 @interface ViewController ()
-
+@property(nonatomic,strong)AVAudioPlayer *myAudioPlayer;
 @property(nonatomic,assign) int currentAndom;
 @property(nonatomic,assign) int currentCount;
 @property(nonatomic,assign) int currentPass;
@@ -113,6 +114,21 @@
         [self presentViewController:alertContr animated:YES completion:nil];
     }
 }
+
+- (void)playMusic1 {
+     NSString *filePath = [[NSBundle mainBundle] pathForResource:@"y1468" ofType:@"mp3"];
+     NSData *fileData = [NSData dataWithContentsOfFile:filePath];
+    self.myAudioPlayer = [[AVAudioPlayer alloc] initWithData:fileData error:nil];
+    [self.myAudioPlayer play];
+}
+
+- (void)playMusic2 {
+     NSString *filePath = [[NSBundle mainBundle] pathForResource:@"y1479" ofType:@"mp3"];
+     NSData *fileData = [NSData dataWithContentsOfFile:filePath];
+    self.myAudioPlayer = [[AVAudioPlayer alloc] initWithData:fileData error:nil];
+    [self.myAudioPlayer play];
+}
+
 //创建子视图
 - (void)createViews:(float)count withSuperview:(UIView *)superview{
     
@@ -165,8 +181,11 @@
         }
         [self clearSubView];
         self.currentPass = self.currentPass + 1;
-        self.passLabel.text = [NSString stringWithFormat:@"当前关卡：%d",self.currentPass];
+        self.passLabel.text = [NSString stringWithFormat:@"当前得分：%d",self.currentPass];
         [self createViews:self.currentCount withSuperview:self.mainView];
+        [self playMusic2];
+    }else{
+        [self playMusic1];
     }
 }
 //清理主视图所有子视图
